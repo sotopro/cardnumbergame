@@ -26,6 +26,7 @@ export const StartGame = () => {
             style={styles.input}
             placeholder="0"
             onChangeText={onHandlerChange}
+            maxLength={2}
           />
           <View style={styles.buttonContainer}>
             <Button title="Reiniciar" onPress={() => null} color={colors.secondary} />

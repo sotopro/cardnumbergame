@@ -17,6 +17,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
+    fontFamily: "Karma-Medium",
   },
   buttonContainer: {
     width: "100%",

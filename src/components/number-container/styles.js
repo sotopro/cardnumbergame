@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
   },
   number: {
-    fontSize: 20,
-    fontWeight: "bold",
+    fontSize: 22,
+    fontFamily: "Karma-Bold",
   },
 });

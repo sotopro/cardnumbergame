@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontWeight: "bold",
+    fontFamily: "Karma-Bold",
     color: colors.white,
   },
 });

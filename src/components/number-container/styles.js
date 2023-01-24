@@ -4,8 +4,8 @@ import { colors } from "../../constants";
 
 export const styles = StyleSheet.create({
   container: {
-    width: 50,
-    height: 50,
+    width: 55,
+    height: 55,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: colors.secondary,

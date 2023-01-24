@@ -13,7 +13,7 @@ import { styles } from "./styles";
 import { Card, NumberContainer } from "../../components";
 import { colors } from "../../constants";
 
-export const StartGame = () => {
+export const StartGame = ({ onHandleStarGame }) => {
   const [enteredValue, setEnteredValue] = useState("");
   const [confirmed, setConfirmed] = useState(false);
   const [seletedNumber, setSelectedNumber] = useState(null);
@@ -40,7 +40,9 @@ export const StartGame = () => {
     }
   };
 
-  const onHandleStartGame = () => null;
+  const onHandleStartGame = () => {
+    onHandleStarGame(seletedNumber);
+  };
 
   const Confirmed = () =>
     confirmed ? (

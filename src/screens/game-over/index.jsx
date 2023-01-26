@@ -1,12 +1,24 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Image, Button } from "react-native";
 
 import { styles } from "./styles";
+import { Card } from "../../components/index";
+import { colors } from "../../constants";
 
-const GameOver = () => {
+const GameOver = ({ rounds, selectedNumber, onHandleRestartGame }) => {
   return (
     <View style={styles.container}>
-      <Text>Game Over</Text>
+      <Card style={styles.content}>
+        <Image
+          source={{
+            uri: "https://mystickermania.com/cdn/stickers/noob-pack/game-over-glitch-effect-512x512.png",
+          }}
+          style={styles.image}
+        />
+        <Text style={styles.text}>Rondas: {rounds}</Text>
+        <Text style={styles.text}>Numero seleccionado: {selectedNumber}</Text>
+        <Button title="Reiniciar juego" onPress={onHandleRestartGame} color={colors.primary} />
+      </Card>
     </View>
   );
 };

@@ -7,4 +7,20 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  content: {
+    width: "80%",
+    paddingVertical: 20,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  image: {
+    width: 200,
+    height: 200,
+  },
+  text: {
+    fontSize: 16,
+    textAlign: "center",
+    paddingVertical: 5,
+    fontFamily: "Karma-Regular",
+  },
 });

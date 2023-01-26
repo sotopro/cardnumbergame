@@ -6,8 +6,8 @@ const { height } = Dimensions.get("screen");
 
 export const styles = StyleSheet.create({
   container: {
+    height: height * 0.12,
     backgroundColor: colors.primary,
-    height: height * 0.15,
     justifyContent: "center",
     alignItems: "center",
     marginTop: StatusBar.currentHeight,

@@ -7,6 +7,13 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  contentLandscape: {
+    width: "80%",
+    flexDirection: "row",
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "space-around",
+  },
   content: {
     width: "80%",
     paddingVertical: 20,

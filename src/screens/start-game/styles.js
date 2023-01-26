@@ -7,6 +7,9 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
   },
+  containterScroll: {
+    flex: 1,
+  },
   title: {
     fontSize: 18,
     fontFamily: "Karma-Medium",
